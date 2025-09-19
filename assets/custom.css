@@ -1,0 +1,25 @@
+#_pages_content {
+  padding: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color:#442976;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+/* --- NAVBAR LINK STYLING --- */
+
+
+/* Hover effect */
+.navbar .nav-link:hover {
+    color: #c2a3fc !important; 
+}
+
+.navbar .nav-link:focus {
+  color: #c2a3fc !important;
+}
