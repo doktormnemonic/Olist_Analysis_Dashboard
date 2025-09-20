@@ -5,7 +5,7 @@ import plotly.express as px
 import pandas as pd
 
 # Register page
-dash.register_page(__name__, name="Home", path="/", order=0)
+dash.register_page(__name__, name="About", path="/", order=0)
 
 # Create components
 header = html.H1("Olist Analysis Dashboard", style={"textAlign": "center"})
