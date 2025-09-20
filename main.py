@@ -22,7 +22,7 @@ def ordered_pages():
 
 # Build simple nav links (no dropdown). Home is explicit; others come from page registry.
 nav_links = [
-    dbc.NavItem(dbc.NavLink("Home", href="/")),
+    dbc.NavItem(dbc.NavLink("About", href="/")),
     *[
         dbc.NavItem(dbc.NavLink(page["name"], href=page["relative_path"]))
         for page in ordered_pages()
