@@ -37,7 +37,7 @@ def compute_stats(df: pd.DataFrame) -> dict:
     }
 
 def fmt_money(x) -> str:
-    return f"{x:,.0f} RBL"
+    return f"{x:,.0f} BRL"
 
 BASE = compute_stats(cumulative_df)
 
